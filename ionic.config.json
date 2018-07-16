@@ -1,0 +1,8 @@
+{
+  "name": "Alaide",
+  "app_id": "0196d16d",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
