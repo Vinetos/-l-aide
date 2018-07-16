@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
-import { IonicPage, ModalController, NavController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, ModalController, NavController} from 'ionic-angular';
 
-import { Item } from '../../models/item';
-import { Items } from '../../providers';
+import {Item} from '../../models/item';
+import {Items} from '../../providers';
 
 @IonicPage()
 @Component({

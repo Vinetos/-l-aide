@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { IonicPage, NavController, ToastController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
+import {IonicPage, NavController, ToastController} from 'ionic-angular';
 
-import { User } from '../../providers';
-import { MainPage } from '../';
+import {User} from '../../providers';
+import {MainPage} from '../';
 
 @IonicPage()
 @Component({
@@ -23,9 +23,9 @@ export class LoginPage {
   private loginErrorString: string;
 
   constructor(public navCtrl: NavController,
-    public user: User,
-    public toastCtrl: ToastController,
-    public translateService: TranslateService) {
+              public user: User,
+              public toastCtrl: ToastController,
+              public translateService: TranslateService) {
 
     this.translateService.get('LOGIN_ERROR').subscribe((value) => {
       this.loginErrorString = value;
